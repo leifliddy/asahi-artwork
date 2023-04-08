@@ -1,10 +1,5 @@
-How the `AsahiLinux_logomark.icns` file was created
-
 # asahi-artwork
-```dnf install libicns-utils```
+```dnf install ImageMagick libicns-utils```
 
-```
-cd logos
-png2icns icns/AsahiLinux_logomark.icns png_{16,32,48,128,256,512}/AsahiLinux_logomark.png
-#png2icns icns/AsahiLinux_logomark.icns png_{128,256}/AsahiLinux_logomark.png
-```
+
+`./script.sh` will create the `png` and `icns` files from `logos/svg/fedora-logo-sprite.svg`
